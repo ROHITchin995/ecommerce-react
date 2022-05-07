@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={
-            <Suspense fallback={<div className='loader'>Loading...</div>}>
+            <Suspense fallback={<div className='loader'>Loading</div>}>
               <Login />
             </Suspense>
           } />
